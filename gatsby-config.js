@@ -20,12 +20,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `FECMT`,
-        short_name: `saulofilho`,
+        short_name: `FECMT`,
         start_url: `/`,
         background_color: `#0d518c`,
         theme_color: `#0d518c`,
         display: `minimal-ui`,
-        icon: `static/assets/torus-icon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/logo.png`,
       }
     },
     'gatsby-plugin-offline',
@@ -57,6 +57,5 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    'gatsby-plugin-dark-mode'
   ],
 }

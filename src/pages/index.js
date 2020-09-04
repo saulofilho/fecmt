@@ -1,9 +1,8 @@
 import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import PostLink from "../components/post-link"
-import YouTube from "../components/YouTube"
 import About from "../components/About"
 
 const IndexPage = ({
@@ -19,13 +18,15 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <YouTube />
       <div className="site-wrapper">
         <Helmet>
           <title>{site.siteMetadata.title}</title>
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
         <About />
+        <ul className="work-list">
+          {Posts}
+        </ul>
       </div>
     </Layout>
   )
@@ -43,13 +44,15 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
       edges {
         node {
+          fields {
+            slug
+          }
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            path
+            date
             title
-            thumbnail
+            fonte
           }
         }
       }
