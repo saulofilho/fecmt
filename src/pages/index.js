@@ -1,9 +1,9 @@
 import React from "react"
-import Helmet from 'react-helmet';
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
-import PostLink from "../components/post-link"
-import About from "../components/About"
+import PostLink from "../components/PostLink"
+import Carousel from "../components/Carousel"
 
 const IndexPage = ({
   data: {
@@ -18,16 +18,15 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <div className="site-wrapper">
         <Helmet>
           <title>{site.siteMetadata.title}</title>
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
-        <About />
-        <ul className="work-list">
+        <Carousel />
+        <div className="noticiais container">
+          <h3>Notícias</h3>
           {Posts}
-        </ul>
-      </div>
+        </div>
     </Layout>
   )
 }
