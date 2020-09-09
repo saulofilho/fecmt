@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300;1,700&display=swap');
-$font-family: 'IBM Plex Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
 :root {
-  --red: #ea234e;
-  --blue: #1e3f77;
-  --light-blue: #d8ecf9;
-  --black: #212222;
-  --gray: #7C8398;
-  --dark-gray: #505150;
-  --black: #212222;
+  --blue: #0d518c;
+  --light-blue: rgb(239, 249, 255);
+  --dark-gray: rgb(92, 92, 92);
+  --light-gray: rgb(192, 192, 192);
+  --open-sans: 'Open Sans', sans-serif;
+  --inria-serif: 'Inria Serif', serif;
+  --inria-sans: 'Inria Sans', sans-serif;
 }
 html,
 body {
@@ -16,7 +17,7 @@ body {
   scroll-behavior: smooth;
   width: 100%;
   height: 100%;
-  background: rgb(239, 249, 255);
+  background: var(--light-blue);
 }
 * {
   margin: 0;
@@ -32,21 +33,20 @@ body {
   width: 0.4rem;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #0d518c;
+  background-color: var(--blue);
 }
 ::selection {
-  background-color: #0d518c;
+  background-color: var(--blue);
   color: rgb(115, 204, 255);
 }
 a {
   text-decoration: none;
-  color: #404040;
   &:hover {
     text-decoration: underline;
   }
 }
 li {
-  list-style-type:none;
+  list-style-type: none;
 }
 ul li {
   display: inline;
@@ -64,57 +64,19 @@ button {
 .display-none {
   display: none;
 }
-.warn {
-  font-size: 12px;
-  color: lightgray;
-  text-align: center;
-  padding-bottom: 3rem;
-}
-.no {
-  font-size: 10px;
+.noticiais-home {
   padding-top: 30px;
 }
-.back-home {
-  padding-top: 3rem;
-}
-.post {
-  padding: 0;
-  background:var(--background);
-  color: var(--text-color);
-  line-height: 1.5;
-  > .blog-post-content {
-    max-width: 768px;
-    margin: 0 auto;
-  }
-  > .blog-post-content *:last-child,
-  > *:last-child {
-    margin-bottom: 0;
-  }
-  .post-title {
-    text-align: center;
-    margin: 0 0 0.5rem;
-    line-height: 1.3;
-    font-size: 2rem;
-  }
-  .post-meta {
-    margin-bottom: 32px;
-    text-align: center;
-  }
-  iframe {
-    width: 100%;
-    height: 700px;
-    border-width: 0;
-  }
-  p {
-    padding: 1rem 0;
-  }
-  p img {
-    text-align: center;
-  }
+.noticiais-home h3 {
+  font-family: var(--open-sans);
+  background: var(--dark-gray);
+  color: #fff;
+  font-size: 1rem;
+  padding: 3px 20px;
 }
 .site-footer {
   text-align: center;
-  color: #666;
+  color: #000;
   height: auto;
   padding: 5rem;
   a {

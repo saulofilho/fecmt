@@ -23,9 +23,11 @@ const IndexPage = ({
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
         <Carousel />
-        <div className="noticiais container">
+        <div className="noticiais-home container">
           <h3>Notícias</h3>
-          {Posts}
+          <div>
+            {Posts}
+          </div>
         </div>
     </Layout>
   )
@@ -49,7 +51,7 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date
+            date(formatString: "DD.MM.YYYY")
             title
             fonte
           }

@@ -1,47 +1,16 @@
-.carousel-wrapper {
-  width: 100%;
-  height: 500px;
-}
-.slick-slider {
-  width: 100%;
-  height: 100%;
-}
-.slick-list {
-  width: 100%;
-  height: 100%;
-}
-.slick-dots {
-  bottom: 0 !important;
-}
 .slick-dots li button:before {
-  color: #60B38D !important;
+  color: var(--blue) !important;
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
 }
 .car-items-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-.car-texts-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: column;
-  width: auto;
-  height: auto;
-}
-
-
-.red {
-  background: red;
+  width: 920px;
   height: 500px;
-  width: 100%;
-}
-.blue {
-  background: blue;
-  height: auto;
-  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  cursor: grabbing;
 }
