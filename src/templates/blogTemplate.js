@@ -9,8 +9,6 @@ export default function Template({
 
   const post = data.markdownRemark
 
-  console.log('sadsad', data)
-
   return (
     <Layout>
       <Helmet>

@@ -8,6 +8,7 @@
     "url": "https://github.com/saulofilho/fecmt"
   },
   "dependencies": {
+    "@loadable/component": "^5.13.1",
     "gatsby": "^2.19.7",
     "gatsby-plugin-dark-mode": "^1.1.1",
     "gatsby-plugin-google-analytics": "^2.1.36",
@@ -29,8 +30,10 @@
     "react-feather": "^2.0.8",
     "react-helmet": "^5.2.1",
     "react-laag": "^1.7.3",
+    "react-search-field": "^1.1.0",
     "react-slick": "^0.27.10",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "typeco": "^1.0.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

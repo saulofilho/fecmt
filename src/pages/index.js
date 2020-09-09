@@ -10,10 +10,12 @@ const IndexPage = ({
     site,
     allMarkdownRemark: { edges },
   },
+  limit = 3
 }) => {
 
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date)
+    .slice(0, limit)
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return (
@@ -25,7 +27,7 @@ const IndexPage = ({
         <Carousel />
         <div className="noticiais-home container">
           <h3>Notícias</h3>
-          <div>
+          <div className="posts-list">
             {Posts}
           </div>
         </div>

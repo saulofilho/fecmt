@@ -25,10 +25,13 @@
   align-items: center;
 }
 .header-right-desk ul li a {
-  font-size: 12px;
+  font-family: var(--inria-sans);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  padding-right: 20px;
 }
 .header-right-desk a:hover {
-  opacity: 0.6;
+  font-style: italic;
 }
 .logo-header {
   width: 100%;

@@ -1,0 +1,38 @@
+.slick-dots li button:before {
+  color: var(--blue) !important;
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+.car-items-wrapper {
+  width: 920px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  cursor: grabbing;
+}
+@media (max-width: 1200px) {
+  .car-items-wrapper {
+    width: 600px;
+  }
+}
+@media (max-width: 760px) {
+  .car-items-wrapper {
+    width: 400px;
+  }
+}
+@media (max-width: 550px) {
+  .car-items-wrapper {
+    width: 300px;
+  }
+}
+@media (max-width: 440px) {
+  .car-items-wrapper {
+    width: 200px;
+    height: 300px;
+    margin: 0;
+  }
+}

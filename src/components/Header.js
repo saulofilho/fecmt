@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from '../../static/assets/logo-alt.png'
-import './Header.css'
+import './Header.scss'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
