@@ -27,13 +27,16 @@ const Noticia = ({
 
   return (
   <Layout>
-    <div className="Noticia container">
-      <h1>Noticia.</h1>
-      <SearchField
-        placeholder="Busque por palavras-chave"
-        classNames="test-class"
-        onSearchClick={onSearchClickExample}
-      />
+    <div className="Noticias container">
+      <div className="noticias-header">
+        <h1>Notícias</h1>
+        <p>Clique sobre o título da notícia para saber mais.</p>
+        <SearchField
+          placeholder="Busque por palavras-chave"
+          classNames="test-class"
+          onSearchClick={onSearchClickExample}
+        />
+      </div>
       <div>
         <PostSection posts={onSearchClickExampleList} />
       </div>

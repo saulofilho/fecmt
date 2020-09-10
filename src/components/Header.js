@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from 'gatsby'
+import { ToggleLayer, Arrow, Transition } from "react-laag"
 import { Menu, X } from 'react-feather'
 import Logo from '../../static/assets/logo-alt.png'
 import './Header.scss'
@@ -23,7 +24,50 @@ const Header = () => {
         <div className="header-right-desk">
           <ul>
             <li>
-              <Link to={"/Federacao"}>A Federação</Link>
+            <ToggleLayer
+                renderLayer={({ isOpen, layerProps, arrowStyle, layerSide }) => (
+                  <Transition isOpen={isOpen}>
+                    {(isOpen, onTransitionEnd) => (
+                      <div
+                        ref={layerProps.ref}
+                        onTransitionEnd={onTransitionEnd}
+                        className="layer"
+                        style={{
+                          ...layerProps.style,
+                          transition: "opacity 340ms, transform 340ms",
+                          opacity: isOpen ? 1 : 0,
+                          transform: "scale(" + isOpen ? 1 : 0.5 + ")",
+                        }}
+                      >
+                        <Link to={"/Federacao"}>História</Link>
+                        <Link to={"/Federacao"}>Serviços</Link>
+                        <Arrow
+                          style={arrowStyle}
+                          layerSide={layerSide}
+                          backgroundColor="rgb(239, 249, 255)"
+                          borderWidth={2}
+                          borderColor="#0d518c"
+                          roundness={0}
+                        />
+                      </div>
+                    )}
+                  </Transition>
+                )}
+                placement={{
+                  anchor: "BOTTOM_CENTER",
+
+                  autoAdjust: true,
+
+                  triggerOffset: 10
+                }}
+                closeOnOutsideClick
+              >
+                {({ triggerRef, toggle }) => (
+                  <a className="btn-blog" ref={triggerRef} onClick={toggle}>
+                    A Federação
+                  </a>
+                )}
+              </ToggleLayer>
             </li>
             <li>
               <Link to={"/Noticias"}>Notícias</Link>
@@ -33,9 +77,6 @@ const Header = () => {
             </li>
             <li>
               <Link to={"/FaleConosco"}>Fale Conosco</Link>
-            </li>
-            <li>
-              <Link to={"/Homologacoes"}>Homologações</Link>
             </li>
           </ul>
         </div>

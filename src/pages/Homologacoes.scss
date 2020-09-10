@@ -1,0 +1,28 @@
+.homologacoes-home {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.homologacoes-home h3 {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+  padding: 0 0 50px 0;
+}
+.homologacoes-home h3::before {
+  content: "";
+  position: absolute;
+  left: -70px;
+  top: 14px;
+  border-bottom: 1px solid var(--dark-gray);
+  width: 50px;
+}
+.homologacoes-home p {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-weight: bolder;
+  font-size: 1.6rem;
+  text-align: center;
+}

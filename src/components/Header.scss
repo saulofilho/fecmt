@@ -2,6 +2,9 @@
   height: auto;
   width: 100%;
 }
+.header-blog a {
+  cursor: pointer;
+}
 .header-wrapper {
   width: 100%;
   height: auto;
@@ -32,6 +35,7 @@
 }
 .header-right-desk a:hover {
   font-style: italic;
+  font-weight: bolder;
 }
 .logo-header {
   width: 100%;
@@ -39,54 +43,42 @@
 }
 .logo-header img {
   max-width: 100%;
-  height: 70px;
-}
-.btn-materiais {
-  width: auto;
-  height: auto;
-  margin: 0 40px;
-}
-a.btn-materiais {
-  color: #06606B;
-  font-weight: 400;
-  font-size: 14px;
-  font-family: 'Open Sans';
-}
-header .btn-fale {
-  width: 240px;
-  height: 40px;
-  background: #06606B;
-  outline: unset;
-  border: unset;
-  border-radius: 4px;
-}
-header a .btn-fale {
-  color: #fff;
-  font-weight: 400;
-  font-size: 14px;
-  font-family: 'Open Sans';
-}
-header button:hover {
-  opacity: 0.9;
-}
-.button-blank {
-  appearance: none;
-  background: none;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.button-blank:hover {
-  opacity: 0.6;
+  height: 60px;
 }
 .menu-button {
   display: none;
 }
 .header-right-mob {
   display: none;
+}
+.layer {
+  width: 100%;
+  height: 100%;
+  background: var(--light-blue);
+  z-index: 99;
+  width: 10%;
+  height: 100px;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--inria-sans);
+  border: 2px solid #0d518c;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  -webkit-box-shadow: 6px 6px 0px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 0px -1px rgba(0,0,0,0.75);
+}
+.layer a {
+  color: #0d518c;
+  padding: 0 0 15px 0;
+}
+.layer a:hover {
+  font-style: italic;
+  font-weight: bolder;
 }
 
 /* desktop */
@@ -97,16 +89,6 @@ header button:hover {
     flex-flow: column;
     padding-top: 20px;
     text-align: center;
-  }
-  .btn-materiais {
-    width: 100%;
-    margin: 0;
-  }
-  header button.btn-fale {
-    margin-top: 20px;
-  }
-  .search-header {
-    padding-top: 40px;
   }
   .menu-button {
     display: flex;

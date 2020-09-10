@@ -3,8 +3,14 @@ import './Footer.scss'
 
 const FooterWrapper = () => {
   return (
-    <footer className="site-footer">
-      footer
+    <footer>
+      <h4>
+        Federação dos Comerciários de Mato Grosso
+      </h4>
+      <br/>
+      <p>
+        Endereco...
+      </p>
     </footer>
   )
 }

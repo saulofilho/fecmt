@@ -3,15 +3,15 @@
 }
 .post-link {
   font-family: var(--lora-serif);
-  color: var(--light-gray);
+  color: var(--dark-gray);
   font-weight: bolder;
   font-size: 1.6rem;
 }
 .post-link:hover {
-  color: var(--dark-gray);
+  color: var(--light-gray);
   font-style: italic;
 }
 .date-info {
   font-family: var(--inria-sans);
-  color: var(--dark-gray);
+  color: var(--light-gray);
 }

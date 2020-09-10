@@ -1,10 +1,16 @@
-.site-footer {
+footer {
   text-align: center;
-  color: #000;
+  color: #fff;
   height: auto;
   padding: 3rem;
   background: var(--blue);
-  a {
-    font-weight: 700;
+  h4 {
+    font-family: var(--lora-serif);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  p {
+    font-family: var(--inria-sans);
+    font-size: 0.8rem;
   }
 }
