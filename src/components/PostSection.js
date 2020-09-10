@@ -8,7 +8,6 @@ const PostSection = ({
   return (
     <div className="posts-section">
       <div className="post-section-grid">
-        {console.log('aaaa', posts)}
         {posts.map(post => (
           <div className="post-item" key={post.id}>
             <p className="date-info">

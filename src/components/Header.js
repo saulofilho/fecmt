@@ -39,8 +39,8 @@ const Header = () => {
                           transform: "scale(" + isOpen ? 1 : 0.5 + ")",
                         }}
                       >
-                        <Link to={"/Federacao"}>História</Link>
-                        <Link to={"/Federacao"}>Serviços</Link>
+                        <Link to={"/Historia"}>História</Link>
+                        <Link to={"/Servicos"}>Serviços</Link>
                         <Arrow
                           style={arrowStyle}
                           layerSide={layerSide}

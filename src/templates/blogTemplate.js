@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
+import './blogTemplate.scss'
 
 export default function Template({
   data,
@@ -15,16 +16,16 @@ export default function Template({
         <title>{post.frontmatter.title}</title>
         <meta name="description" content={post.frontmatter.metaDescription} />
       </Helmet>
-      <div className="blog-post-container">
+      <div className="Blog-post container">
         <article className="post">
-              <h1 className="post-title">{post.frontmatter.title}</h1>
+          <h1>{post.frontmatter.title}</h1>
           <div className="site-wrapper">
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            <div className="back-home">
-              <Link to="/">⇦ back home</Link>
+            <div className="voltar">
+              <Link to="/">⇦ Voltar</Link>
             </div>
           </div>
         </article>

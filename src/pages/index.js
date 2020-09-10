@@ -28,7 +28,7 @@ const IndexPage = ({
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
         <Carousel />
-        <section className="noticiais-home container">
+        <section className="noticias-home container">
           <h3>Notícias</h3>
           <div className="posts-list">
             {Posts}

@@ -1,7 +1,7 @@
 .Noticias {
   padding-top: 100px;
 }
-.noticiais-home {
+.noticias-home {
   padding-top: 30px;
 }
 .noticias-header {
@@ -24,8 +24,9 @@
   font-size: 1rem;
   font-weight: bolder;
   padding: 0 0 20px 0;
+  text-align: center;
 }
-.noticiais-home h3 {
+.noticias-home h3 {
   font-family: var(--lora-serif);
   color: var(--dark-gray);
   font-size: 1.2rem;
@@ -34,7 +35,7 @@
   position: relative;
   padding: 0 0 50px 0;
 }
-.noticiais-home h3::before {
+.noticias-home h3::before {
   content: "";
   position: absolute;
   left: -70px;
@@ -54,3 +55,16 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }}
+.search {
+  border: 2px solid var(--blue) !important;
+  height: auto !important;
+}
+.search button {
+  background-color: var(--blue) !important;
+}
+.search button svg {
+  fill: #fff !important;
+}
+.search button:hover {
+  opacity: 0.6;
+}

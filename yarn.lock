@@ -11823,6 +11823,11 @@ react-helmet@^5.2.1:
     react-fast-compare "^2.0.2"
     react-side-effect "^1.1.0"
 
+react-hooks-paginator@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/react-hooks-paginator/-/react-hooks-paginator-0.4.4.tgz#5d3be0d145b6d12a4839591dcf433eec2bb240f9"
+  integrity sha512-x0QoTO95IoilOVyqjdlprso6UelIXpeD5ctRVBEA3scSdzSVCLDtIr73l42jzTekNEwEizDuWAM0Iie+pdDuIg==
+
 react-hot-loader@^4.12.21, react-hot-loader@^4.8.0:
   version "4.12.21"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.21.tgz#332e830801fb33024b5a147d6b13417f491eb975"
@@ -11887,6 +11892,13 @@ react-onclickoutside@^6.5.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.9.0.tgz#a54bc317ae8cf6131a5d78acea55a11067f37a1f"
   integrity sha512-8ltIY3bC7oGhj2nPAvWOGi+xGFybPNhJM0V1H8hY/whNcXgmDeaeoCMPPd8VatrpTsUWjb/vGzrmu6SrXVty3A==
+
+react-paginate@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-6.4.0.tgz#89426657c9b41bde616a3ded6923e589c3bcb62b"
+  integrity sha512-xvndbJLUsJhCnEI0F/Xbt+vXg4bRPKhKhd0KrEyvXoIMHnsK/xqXvz5o/unYuLI27Cai5xymwB2tiCSAl+UJPA==
+  dependencies:
+    prop-types "^15.6.1"
 
 react-polyglot@^0.7.0:
   version "0.7.0"
