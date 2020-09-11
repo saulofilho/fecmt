@@ -1,36 +1,28 @@
-.Historia {
+.FaleConosco {
   padding-top: 100px;
 }
-.historia-home {
+.fale-home {
   padding-top: 30px;
 }
-.historia-header {
+.fale-header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   padding-bottom: 100px;
 }
-.historia-header h1 {
+.fale-header h1 {
   font-family: var(--lora-serif);
   color: var(--blue);
   font-size: 3.5rem;
   font-weight: bolder;
   padding: 0 0 10px 0;
 }
-.historia-header p {
+.fale-header p {
   font-family: var(--inria-sans);
   color: var(--dark-gray);
   font-size: 1rem;
   font-weight: bolder;
   padding: 0 0 20px 0;
   text-align: center;
-}
-.historia-text p {
-  text-indent: 5rem;
-  font-family: var(--lora-serif);
-  color: var(--dark-gray);
-  font-weight: bolder;
-  font-size: 1.3rem;
-  padding-bottom: 30px;
 }

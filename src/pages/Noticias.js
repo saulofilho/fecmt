@@ -26,7 +26,7 @@ const Noticia = ({
 
   useEffect(() => {
     setData(data);
-  }, []);
+  }, [data]);
 
   useEffect(() => {
     setCurrentData(data.slice(offset, offset + pageLimit));

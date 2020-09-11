@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `FECMT`,
-    description: `fecmt`,
-    siteUrl: `https://fecmt.org.br`,
+    description: `Federação dos Empregados nos Grupos do Comérico do Estado de Mato Grosso`,
+    siteUrl: `https://fecmt.com.br`,
     home: {
       title: `FECMT`,
-      description: `xxx`,
+      description: `Federação dos Empregados nos Grupos do Comérico do Estado de Mato Grosso`,
     }
   },
   plugins: [

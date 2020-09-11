@@ -9,7 +9,7 @@ const ConhecaMatoGrosso = () => {
       <div className="conheca-header">
         <h1>Conheça Mato Grosso</h1>
         <p>
-          Conheça a História e a Cultura da capital de Mato Grosso!
+          Conheça a História e a Cultura da capital de Mato Grosso.
           <br/>
           Confira informações sobre os aspectos culturais, históricos,
           <br/>
