@@ -15,7 +15,8 @@ const FaleConosco = () => {
         </p>
       </div>
       <div className="fale-form">
-          <form name="contact" method="POST" data-netlify="true" action ="/FormSucesso" netlify>
+          <form name="contact" method="POST" data-netlify="true" action ="/FormSucesso" netlify netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
             </p>
