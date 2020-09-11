@@ -1,19 +1,21 @@
 import React from "react"
-import Layout from "../components/Layout"
+import { Link } from 'gatsby'
 import './FormSucesso.scss'
+import Logo from '../../static/assets/logo.png'
 
 const FormSucesso = () => {
   return (
-    <Layout>
     <div className="FormSucesso container">
       <div className="form-header">
         <h1>Mensagem enviada com sucesso.</h1>
         <p>
-          Logo entraremos em contato
+          Logo entraremos em contato.
         </p>
       </div>
+      <Link to={"/"}>
+        <img src={Logo} alt="logo blog" />
+      </Link>
     </div>
-  </Layout>
   )
 }
 

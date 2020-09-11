@@ -18,12 +18,20 @@ export default function Template({
       </Helmet>
       <div className="Blog-post container">
         <article className="post">
-          <h1>{post.frontmatter.title}</h1>
+          <p className="post-date">
+            {post.frontmatter.date}
+          </p>
+          <h1>
+            {post.frontmatter.title}
+          </h1>
           <div className="site-wrapper">
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
+            <p className="post-fonte">
+              {post.frontmatter.fonte}
+            </p>
             <div className="voltar">
               <Link to="/Noticias">⇦ Voltar</Link>
             </div>
@@ -39,8 +47,9 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date
+        date(formatString: "DD.MM.YYYY")
         title
+        fonte
       }
     }
   }

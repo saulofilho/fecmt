@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import './FaleConosco.scss'
+import { useForm } from "react-hook-form";
 
 const FaleConosco = () => {
   return (
@@ -16,25 +17,39 @@ const FaleConosco = () => {
       </div>
       <div className="fale-form">
           <form name="contact" method="POST" data-netlify="true" action ="/FormSucesso" netlify netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label>Your Name: <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+            <fieldset>
+              <input type="hidden" name="form-name" value="contact" />
+              <section>
+                <label>Assunto: </label>
+                <select name="role[]" className="select-css">
+                  <option value="guias">Emissão de Guias</option>
+                  <option value="cadastro">Cadastro</option>
+                  <option value="assessoria">Assessoria</option>
+                  <option value="diretoria">Diretoria</option>
+                </select>
+              </section>
+              <section>
+                <label>Nome: </label>
+                <input type="text" name="name" placeholder="Seu nome" />
+              </section>
+              <section>
+                <label>Email: </label>
+                <input type="email" name="email" placeholder="Seu email" />
+              </section>
+              <section>
+                <label>Telefone: </label>
+                <input type="telefone" name="telefone" placeholder="Seu telefone" />
+              </section>
+              <section>
+                <label>Cidade: </label>
+                <input type="cidade" name="cidade" placeholder="Sua cidade" />
+              </section>
+              <section>
+                <label>Menssagem: </label>
+                <textarea name="message" placeholder="Escreva a sua mensagem aqui"></textarea>
+              </section>
+                <button type="submit">Enviar</button>
+            </fieldset>
           </form>
       </div>
     </div>

@@ -15,3 +15,8 @@
   font-family: var(--inria-sans);
   color: var(--light-gray);
 }
+@media (max-width: 576px) {
+  .post-link {
+    font-size: 1rem;
+  }
+}

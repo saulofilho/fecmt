@@ -1,5 +1,9 @@
 .FormSucesso {
   padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 .form-home {
   padding-top: 30px;
@@ -25,4 +29,9 @@
   font-weight: bolder;
   padding: 0 0 20px 0;
   text-align: center;
+}
+.FormSucesso img {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
 }
