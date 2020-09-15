@@ -10,7 +10,6 @@ const Historia = () => {
         <h1>História</h1>
         <p>
           Saiba mais sobre a história da Federação dos
-          <br/>
           Empregados nos Grupos do Comérico do Estado de Mato Grosso
         </p>
       </div>

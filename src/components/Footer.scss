@@ -6,11 +6,21 @@ footer {
   background: var(--blue);
   h4 {
     font-family: var(--lora-serif);
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
   }
   p {
     font-family: var(--inria-sans);
-    font-size: 0.8rem;
+    font-size: 1rem;
+    padding: 40px 0;
+  }
+}
+@media (max-width: 576px) {
+  footer {
+    h4 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.7rem;
+    }
   }
 }

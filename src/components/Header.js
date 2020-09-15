@@ -81,7 +81,63 @@ const Header = () => {
           </ul>
         </div>
         <div className="header-right-mob">
-          mob
+          <ul>
+            <li>
+            <ToggleLayer
+                renderLayer={({ isOpen, layerProps, arrowStyle, layerSide }) => (
+                  <Transition isOpen={isOpen}>
+                    {(isOpen, onTransitionEnd) => (
+                      <div
+                        ref={layerProps.ref}
+                        onTransitionEnd={onTransitionEnd}
+                        className="layer"
+                        style={{
+                          ...layerProps.style,
+                          transition: "opacity 340ms, transform 340ms",
+                          opacity: isOpen ? 1 : 0,
+                          transform: "scale(" + isOpen ? 1 : 0.5 + ")",
+                        }}
+                      >
+                        <Link to={"/Historia"}>História</Link>
+                        <Link to={"/Servicos"}>Serviços</Link>
+                        <Arrow
+                          style={arrowStyle}
+                          layerSide={layerSide}
+                          backgroundColor="rgb(239, 249, 255)"
+                          borderWidth={2}
+                          borderColor="#0d518c"
+                          roundness={0}
+                        />
+                      </div>
+                    )}
+                  </Transition>
+                )}
+                placement={{
+                  anchor: "BOTTOM_CENTER",
+
+                  autoAdjust: true,
+
+                  triggerOffset: 10
+                }}
+                closeOnOutsideClick
+              >
+                {({ triggerRef, toggle }) => (
+                  <a className="btn-blog" ref={triggerRef} onClick={toggle}>
+                    A Federação
+                  </a>
+                )}
+              </ToggleLayer>
+            </li>
+            <li>
+              <Link to={"/Noticias"}>Notícias</Link>
+            </li>
+            <li>
+              <Link to={"/ConhecaMatoGrosso"}>Conheça Mato Grosso</Link>
+            </li>
+            <li>
+              <Link to={"/FaleConosco"}>Fale Conosco</Link>
+            </li>
+          </ul>
         </div>
         <button
           className="button-blank menu-button"

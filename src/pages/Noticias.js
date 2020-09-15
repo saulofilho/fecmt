@@ -15,9 +15,7 @@ const Noticia = ({
 }) => {
   const posts = edges.map(edge => ({...edge.node}))
 
-  // const [onSearchClickExampleList, setOnSearchClickExampleList] = useState([...posts])
-
-  const pageLimit = 5;
+  const pageLimit = 10;
 
   const [offset, setOffset] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);

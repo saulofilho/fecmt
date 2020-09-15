@@ -19,7 +19,16 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: true,
-    variableWidth: true
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 440,
+        settings: {
+          variableWidth: false,
+          centerMode: false,
+        }
+      }
+    ]
   };
 
   return (
@@ -34,6 +43,9 @@ const Carousel = () => {
               alt="foto da chapada dos guimaraes"
             >
             </div>
+            <p className="car-text">
+            Chapada dos Guimarães
+            </p>
           </div>
           <div>
             <div
@@ -41,9 +53,12 @@ const Carousel = () => {
               style={{
                 backgroundImage: `url(${Nobres})`
               }}
-              alt="foto da chapada dos Nobres"
+              alt="foto de Nobres"
             >
             </div>
+            <p className="car-text">
+            Nobres
+            </p>
           </div>
           <div>
             <div
@@ -51,9 +66,12 @@ const Carousel = () => {
               style={{
                 backgroundImage: `url(${Pantanal})`
               }}
-              alt="foto da chapada dos Pantanal"
+              alt="foto do Pantanal"
             >
             </div>
+            <p className="car-text">
+            Pantanal
+            </p>
           </div>
         </Slider>
     </section>
