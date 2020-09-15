@@ -1,0 +1,7 @@
+---
+template: BlogPost
+date: 2020-09-15T21:22:28.456Z
+title: Afastada condenação de hipermercado por revista de pertences sem contato físico
+fonte: TST
+---
+A Oitava Turma do Tribunal Superior do Trabalho isentou o Atacadão S.A., de Lauro de Freitas (BA), do pagamento de indenização a um operador de empilhadeira em razão de revista em seus pertences. A decisão segue a jurisprudência do TST em relação a revistas em que não há contato físico. Revista visual Adotada pela empresa em relação a todos os empregados, a prática consistia na revista de bolsas e mochilas dos empregados ao fim do expediente. Segundo testemunha, havia câmera no local e normalmente a revista era apenas visual, “mas o segurança já chegou a pegar algum pertence para conferir”. O Atacadão foi condenado pelo Tribunal Regional do Trabalho da 5ª Região (TRT-BA) ao pagamento de indenização no valor de R$ 10 mil. Para o TRT, a simples circunstância de o empregado ser submetido à revista, mesmo que sem contato físico, justifica a reparação por danos morais. Sem contato físico No exame do recurso de revista, a relatora, ministra Maria Cristina Peduzzi, destacou que, conforme a jurisprudência do TST, a revista visual de pertences do empregado, sem contato físico e realizada de forma indiscriminada em relação a todos os empregados, como no caso, não acarreta dano moral. Trata-se, segundo ela, de situação em que o empregador age dentro dos limites do seu poder diretivo, “no regular exercício da proteção e defesa do seu patrimônio”. A decisão foi unânime.
