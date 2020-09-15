@@ -22,7 +22,7 @@ const FaleConosco = () => {
               <input type="hidden" name="form-name" value="contact" />
               <section>
                 <label>Assunto:
-                <select name="role" className="select-css">
+                <select name="role[]" className="select-css">
                   <option value="guias">Emissão de Guias</option>
                   <option value="cadastro">Cadastro</option>
                   <option value="assessoria">Assessoria</option>
