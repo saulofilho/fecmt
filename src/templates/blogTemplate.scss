@@ -36,6 +36,21 @@
   color: var(--dark-gray);
   font-style: italic;
 }
+.post-date {
+  text-align: center;
+  font-family: var(--inria-sans);
+  color: var(--light-gray);
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 50px;
+}
+.post-fonte {
+  font-family: var(--inria-sans);
+  color: var(--light-gray);
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 50px;
+}
 @media (max-width: 576px) {
   .post h1 {
     text-indent: 0;

@@ -33,6 +33,11 @@
   font-size: 1rem;
   padding-right: 20px;
 }
+.header-right-desk ul li svg {
+  position: relative;
+  top: 6px;
+  left: 2px;
+}
 .header-right-desk a:hover {
   font-style: italic;
   font-weight: bolder;
@@ -96,6 +101,7 @@
   color: var(--dark-gray);
   font-size: 1rem;
 }
+
 
 /* desktop */
 

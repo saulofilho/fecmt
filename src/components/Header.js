@@ -1,11 +1,12 @@
 import React, { useState } from "react"
 import { Link } from 'gatsby'
 import { ToggleLayer, Arrow, Transition } from "react-laag"
-import { Menu, X } from 'react-feather'
+import { Menu, X, ChevronUp, ChevronDown } from 'react-feather'
 import Logo from '../../static/assets/logo-alt.png'
 import './Header.scss'
 
 const Header = () => {
+  const [isOpenArrow, setIsOpenArrow] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const menuClassNames = isOpen ? 'header-wrapper-active container' : 'header-wrapper container';
 
@@ -63,9 +64,26 @@ const Header = () => {
                 closeOnOutsideClick
               >
                 {({ triggerRef, toggle }) => (
-                  <a className="btn-blog" ref={triggerRef} onClick={toggle}>
-                    A Federação
-                  </a>
+                  <button
+                    onClick={() => setIsOpenArrow(!isOpenArrow)}
+                  >
+                    <a
+                      ref={triggerRef}
+                      onClick={toggle}
+                    >
+                      A Federação
+                      {isOpenArrow ?
+                        <ChevronUp
+                          color={"#0d518c"}
+                          className="x"
+                        />
+                        :
+                        <ChevronDown
+                          color={"#0d518c"}
+                          className="menu"
+                        />}
+                    </a>
+                  </button>
                 )}
               </ToggleLayer>
             </li>
@@ -122,9 +140,26 @@ const Header = () => {
                 closeOnOutsideClick
               >
                 {({ triggerRef, toggle }) => (
-                  <a className="btn-blog" ref={triggerRef} onClick={toggle}>
+                  <button
+                  onClick={() => setIsOpenArrow(!isOpenArrow)}
+                >
+                  <a
+                    ref={triggerRef}
+                    onClick={toggle}
+                  >
                     A Federação
+                    {isOpenArrow ?
+                      <ChevronUp
+                        color={"#0d518c"}
+                        className="x"
+                      />
+                      :
+                      <ChevronDown
+                        color={"#0d518c"}
+                        className="menu"
+                      />}
                   </a>
+                </button>
                 )}
               </ToggleLayer>
             </li>

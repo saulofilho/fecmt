@@ -30,10 +30,10 @@ export default function Template({
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <p className="post-fonte">
-              {post.frontmatter.fonte}
+              Fonte: {post.frontmatter.fonte}
             </p>
             <div className="voltar">
-              <Link to="/Noticias">⇦ Voltar</Link>
+              <Link to="/Noticias">⟵ Voltar</Link>
             </div>
           </div>
         </article>
