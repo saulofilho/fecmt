@@ -1,0 +1,45 @@
+.SindicatosFiliados {
+  padding-top: 100px;
+}
+.sindicatos-home {
+  padding-top: 30px;
+}
+.sindicatos-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding-bottom: 100px;
+}
+.sindicatos-header h1 {
+  font-family: var(--lora-serif);
+  color: var(--blue);
+  font-size: 3.5rem;
+  font-weight: bolder;
+  padding: 0 0 10px 0;
+}
+.sindicatos-header p {
+  font-family: var(--inria-sans);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+.sindicatos-text p {
+  text-indent: 5rem;
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-weight: bolder;
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+}
+@media (max-width: 576px) {
+  .sindicatos-header h1 {
+    font-size: 2.5rem;
+  }
+  .sindicatos-text p {
+    text-indent: 0;
+    font-size: 0.9rem;
+  }
+}

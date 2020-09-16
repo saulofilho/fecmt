@@ -13,7 +13,7 @@ const IndexPage = ({
     site,
     allMarkdownRemark: { edges },
   },
-  limit = 5
+  limit = 3
 }) => {
 
   const Posts = edges
@@ -40,11 +40,15 @@ const IndexPage = ({
           </Link>
         </section>
         <section className="homologacoes-home container">
-          <h3>Homologações</h3>
+          <h3>O que fazemos por você?</h3>
           <p>
-            "O pagamento e a homologação das parcelas constante do instrumento de
-            rescisão contratual ou recibo de quitação deverá ser efetuado nos seus
-            respectivos sindicatos ou conforme determina o Art. 477. Cláusula nona cct."
+            A Federação dos Comerciários representa os Sindicatos e os Trabalhadores
+            inorganizados em Sindicatos na luta pelos seus direitos, nas convenções
+            coletivas, e pela qualificação da categoria, permanentemente.
+            Oferece todo o suporte necessário aos Sindicatos filiados para sua
+            estruturação e à manutenção do emprego no comércio, desde a denúncia
+            da inadequação do ambiente de trabalho até a garantia do cumprimento
+            de todos os direitos trabalhistas.
           </p>
         </section>
     </Layout>

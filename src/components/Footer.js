@@ -16,11 +16,6 @@ const FooterWrapper = () => {
         Bosque da Saúde, Cuiabá - MT
         <br/>
         CEP: 78050-000
-        <br/>
-        <br/>
-        Fone: (65) 3644-1967
-        <br/>
-        fecmt@fecmt.com.br
       </p>
     </footer>
   )

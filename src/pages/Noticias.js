@@ -15,7 +15,7 @@ const Noticia = ({
 }) => {
   const posts = edges.map(edge => ({...edge.node}))
 
-  const pageLimit = 10;
+  const pageLimit = 3;
 
   const [offset, setOffset] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);

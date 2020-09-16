@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css"
 import Chapada from '../../static/assets/chapada.jpg'
 import Nobres from '../../static/assets/nobres.jpg'
 import Pantanal from '../../static/assets/pantanal.jpg'
+import Araguaia from '../../static/assets/araguaia.jpg'
+import Barra from '../../static/assets/barra.jpg'
 
 const Carousel = () => {
   const settings = {
@@ -58,6 +60,32 @@ const Carousel = () => {
             </div>
             <p className="car-text">
             Nobres
+            </p>
+          </div>
+          <div>
+            <div
+              className="car-items-wrapper"
+              style={{
+                backgroundImage: `url(${Araguaia})`
+              }}
+              alt="foto do Araguaia"
+            >
+            </div>
+            <p className="car-text">
+            Alto Araguaia
+            </p>
+          </div>
+          <div>
+            <div
+              className="car-items-wrapper"
+              style={{
+                backgroundImage: `url(${Barra})`
+              }}
+              alt="foto do Barra"
+            >
+            </div>
+            <p className="car-text">
+            Barra do Garças
             </p>
           </div>
           <div>
