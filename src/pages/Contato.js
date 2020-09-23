@@ -13,13 +13,13 @@ import { useForm, Controller } from "react-hook-form";
 const Contato = () => {
   const { register, handleSubmit, control, errors } = useForm({ mode: 'onBlur' })
   const netlify = useNetlifyForm({
-    name: 'react-hook-form',
+    name: 'contato',
     action: '/FormSucesso',
     honeypotName: 'bot-field',
     onSuccess: (response, context) => {
       console.log("response", response)
       console.log("context", context)
-      console.log('datax', window.location.href = "http://localhost:8000/FormSucesso")
+      // console.log('datax', window.location.href = "https://localhost:8000/FormSucesso")
       // window.location = response.url;
     }
   })
