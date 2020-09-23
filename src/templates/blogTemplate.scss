@@ -2,13 +2,13 @@
   padding-top: 100px;
 }
 .post h1 {
-  text-indent: 5rem;
   font-family: var(--lora-serif);
   color: var(--blue);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   padding: 0 0 30px 0;
-  line-height: 2.5rem;
+  line-height: 2rem;
+  text-align: center;
 }
 .blog-post-content p:first-child {
   text-indent: 5rem;
@@ -16,7 +16,8 @@
 .blog-post-content p {
   font-family: var(--lora-serif);
   color: var(--dark-gray);
-  font-size: 1.3rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
   padding-bottom: 30px;
 }
 .blog-post-content p strong {
@@ -42,7 +43,7 @@
   color: var(--light-gray);
   font-weight: bolder;
   font-size: 1rem;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .post-fonte {
   font-family: var(--inria-sans);
