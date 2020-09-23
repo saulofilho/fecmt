@@ -17,10 +17,7 @@ const Contato = () => {
     action: '/FormSucesso',
     honeypotName: 'bot-field',
     onSuccess: (response, context) => {
-      console.log("response", response)
-      console.log("context", context)
-      // console.log('datax', window.location.href = "https://localhost:8000/FormSucesso")
-      // window.location = response.url;
+      window.location.href = "https://fecmt.netlify.app/FormSucesso";
     }
   })
 
