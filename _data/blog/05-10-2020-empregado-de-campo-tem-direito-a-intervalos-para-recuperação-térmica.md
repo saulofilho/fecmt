@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-date: 2020-10-05T13:46:50.467Z
+date: 2020-10-05T22:06:18.571Z
 title: "Empregado de campo tem direito a intervalos para recuperação térmica  "
 fonte: TST
 ---
