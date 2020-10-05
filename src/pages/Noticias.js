@@ -70,7 +70,7 @@ const Noticia = ({
 export default Noticia
 export const pageQuery = graphql`
   query NoticiaQuery {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           fields {
