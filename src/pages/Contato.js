@@ -86,8 +86,8 @@ const Contato = () => {
                   <Controller
                     type="telephone"
                     name="telephone"
-                    format="(##) ####-####"
-                    placeholder="(65) 1234-5678"
+                    format="(##) # ####-####"
+                    placeholder="(65) 9 1234-5678"
                     as={NumberFormat}
                     control={control}
                   />
