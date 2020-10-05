@@ -4,7 +4,7 @@ date: 2020-10-05T13:46:50.467Z
 title: "Empregado de campo tem direito a intervalos para recuperação térmica  "
 fonte: TST
 ---
-<!--StartFragment-->
+
 
 A Oitava Turma do Tribunal Superior do Trabalho considerou devida a condenação da Empresa Brasileira de Pesquisa Agropecuária (Embrapa) ao pagamento, a um assistente de Petrolina (PE), de horas extras relativas à não concessão dos intervalos para recuperação térmica por exposição ao calor acima dos limites estabelecidos em norma regulamentar. Para os ministros, o pagamento do adicional de insalubridade não afasta o direito do trabalhador ao intervalo.
 
