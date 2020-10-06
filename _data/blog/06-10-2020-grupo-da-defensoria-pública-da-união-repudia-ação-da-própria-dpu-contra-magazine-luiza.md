@@ -1,0 +1,16 @@
+---
+template: BlogPost
+date: 2020-10-06T18:41:31.828Z
+title: Grupo da Defensoria Pública da União repudia ação da própria DPU contra
+  Magazine Luiza
+fonte: g1.com
+---
+Os defensores e as defensoras públicas federais que compõem o Grupo de Trabalho de Política Etnorraciais da Defensoria Pública da União repudiaram uma ação proposta pela própria DPU contra o programa de trainee da Magazine Luiza.
+
+**Analítico**: [Por que o magalu abriu uma seleção só para trainees negros?](https://oglobo.globo.com/analitico/por-que-magalu-abriu-uma-selecao-so-para-trainees-negros-1-24652172)
+
+Acredite. O objetivo de um defensor era [" impedir que a empresa Magazine Luíza S/A continuasse a promover a política afirmativa na contratação exclusiva de pessoas negras para vagas de trainee em seus quadros, bem como condená-la ao pagamento de indenização por dano coletivo, no valor de R$ 10 milhões](https://oglobo.globo.com/economia/magalu-defensoria-vai-justica-contra-programa-de-trainee-para-negros-pede-10-milhoes-por-danos-morais-24679192).
+
+**Leia um trecho da nota de repúdio:**
+
+"Bem pondera o ministro do STF Luis Roberto Barroso, "a cota racial é mecanismo emergencial e paliativo de promover ascensão social e, sobretudo, de propiciar à próxima geração – os filhos dos cotistas – maiores chances de romper o cerco e de ter acesso a bens sociais e valores culturais que fazem a vida ser melhor e maior” (Cotas e Justiça Racial: de que lado você está? Artigo publicado no site https://www.conjur.com.br/2013-mai-06/luisroberto- barroso-justica-racial-ladovoce acessado em 11/04/2019). No caso em tela, a empresa Magazine Luiza, a qual tem maioria branca em seus quadros, optou por conduzir política afirmativa na contratação de pessoas negras com o objetivo de reduzir as desigualdades sociais e combater o racismo estrutural e institucional que por décadas insiste em permear a sociedade brasileira. A polêmica gerada em torno dessa ação afirmativa reside apenas no fato de poucas empresas hoje adotarem postura semelhante a louvável ação afirmativa acima referida, valendo lembrar que polêmicas igualmente foram geradas pelas primeiras ações coletivas sobre o tema de cotas étnicas e ações afirmativas que hoje são legal e constitucionalmente consolidadas no Brasil. Assentadas essas premissas, tem-se que a posição externada pelo referido membro da DPU não reflete a missão e posição institucional da Defensoria Pública da União quanto a defesa dos direitos dos necessitados. Mais que isso, contraria os direitos do grupo vulnerável cuja DPU tem o dever irrenunciável de defender. Isto posto, Grupo de Trabalho de Políticas Etnorraciais da Defensoria Pública da União, como reconhecido propulsor de políticas afirmativas da igualdade racial, manifesta profundo REPÚDIO à postura do defensor público federal Jovino Bento Júnior e informa que atuará no âmbito do referido processo coletivo, ao lado dos movimentos sociais protetivos dos direitos da população negra, buscando o indeferimento da petição inicial ou a improcedência dos pedidos nela formulados, sem prejuízo de outras providências internas cabíveis".
