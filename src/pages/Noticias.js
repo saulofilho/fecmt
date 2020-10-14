@@ -15,7 +15,7 @@ const Noticia = ({
 }) => {
   const posts = edges.map(edge => ({...edge.node}))
 
-  const pageLimit = 3;
+  const pageLimit = 10;
 
   const [offset, setOffset] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
@@ -39,6 +39,10 @@ const Noticia = ({
     setData(getMatchedList(value))
   }
 
+  console.log('data', data)
+  console.log('current', currentData)
+  console.log('posts', posts)
+
   return (
   <Layout>
     <div className="Noticias container">
@@ -51,9 +55,7 @@ const Noticia = ({
           onSearchClick={onSearchClickExample}
         />
       </div>
-      <div>
-        <PostSection posts={currentData} />
-      </div>
+      {!!currentData.length ? <PostSection posts={currentData} /> : <p className="search-result-none">Nenhuma palavra-chave encontrada.</p>}
       <Paginator
         totalRecords={data.length}
         pageLimit={pageLimit}

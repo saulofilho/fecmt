@@ -20,6 +20,12 @@
   line-height: 1.7rem;
   padding-bottom: 30px;
 }
+.blog-post-content h4 {
+  font-family: var(--inria-sans);
+  color: var(--dark-gray);
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
 .blog-post-content p strong {
   font-weight: bolder;
 }

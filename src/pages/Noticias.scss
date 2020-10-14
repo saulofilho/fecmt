@@ -52,6 +52,13 @@
   -moz-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;
 }
+.search-result-none {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding-bottom: 30px;
+}
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }}
