@@ -6,23 +6,21 @@ const PostSection = ({
   posts = [],
 }) => {
   return (
-    <div className="posts-section">
-      <div className="post-section-grid">
-        {posts.map(post => (
-          <div className="post-item" key={post.id}>
-            <p className="date-info">
-              {post.frontmatter.date}
-            </p>
-            <Link to={post.fields.slug} className="post-link">
-              {post.frontmatter.title}
-            </Link>
-            <p className="excerpt">
-              {post.excerpt}
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
+    <>
+      {posts.map(post => (
+        <div className="post-item" key={post.id}>
+          <p className="date-info">
+            {post.frontmatter.date}
+          </p>
+          <Link to={post.fields.slug} className="post-link">
+            {post.frontmatter.title}
+          </Link>
+          <p className="excerpt">
+            {post.excerpt}
+          </p>
+        </div>
+      ))}
+    </>
   )
 }
 

@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-display_url: https://fecmt.netlify.app
+display_url: https://fecmt.com.br/
 
 media_folder: static/assets
 public_folder: /assets
@@ -24,5 +24,6 @@ collections:
         }
       - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY" }
       - { name: title, label: Título, widget: string }
+      - { name: img, label: Imagem, widget: image }
       - { name: body, label: Body, widget: markdown }
       - { name: fonte, label: Fonte, widget: string }

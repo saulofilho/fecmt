@@ -17,6 +17,10 @@ export default function Template({
         <meta name="description" content={post.frontmatter.metaDescription} />
       </Helmet>
       <div className="Blog-post container">
+        <div className="img-post"
+          style={{
+            backgroundImage: `url(${post.frontmatter.img})`
+          }}></div>
         <article className="post">
           <p className="post-date">
             {post.frontmatter.date}
@@ -50,6 +54,7 @@ export const pageQuery = graphql`
         date(formatString: "DD.MM.YYYY")
         title
         fonte
+        img
       }
     }
   }

@@ -1,5 +1,5 @@
 .Blog-post {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .post h1 {
   font-family: var(--lora-serif);
@@ -28,6 +28,14 @@
 }
 .blog-post-content p strong {
   font-weight: bolder;
+}
+.blog-post-content a {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding-bottom: 30px;
+  font-style: italic;
 }
 .voltar {
   padding-bottom: 30px;

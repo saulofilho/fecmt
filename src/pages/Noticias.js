@@ -39,10 +39,6 @@ const Noticia = ({
     setData(getMatchedList(value))
   }
 
-  console.log('data', data)
-  console.log('current', currentData)
-  console.log('posts', posts)
-
   return (
   <Layout>
     <div className="Noticias container">
@@ -84,6 +80,7 @@ export const pageQuery = graphql`
             date(formatString: "DD.MM.YYYY")
             title
             fonte
+            img
           }
         }
       }

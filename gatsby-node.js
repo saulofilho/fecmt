@@ -56,3 +56,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+  type MarkdownRemark implements Node @infer {
+    frontmatter: MarkdownRemarkFrontmatter!
+  }
+  type MarkdownRemarkFrontmatter @infer {
+    img: String,
+  }
+`
+  createTypes(typeDefs)
+}
