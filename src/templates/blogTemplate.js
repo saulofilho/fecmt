@@ -17,10 +17,10 @@ export default function Template({
         <meta name="description" content={post.frontmatter.metaDescription} />
       </Helmet>
       <div className="Blog-post container">
-        <div className="img-post"
+        {post.frontmatter.img && <div className="img-post"
           style={{
             backgroundImage: `url(${post.frontmatter.img})`
-          }}></div>
+          }} />}
         <article className="post">
           <p className="post-date">
             {post.frontmatter.date}
