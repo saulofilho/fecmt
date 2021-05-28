@@ -1,0 +1,20 @@
+---
+template: BlogPost
+date: 2021-06-01T12:39:00.000Z
+title: Argumento de “força maior” não reduz indenizações devidas por empresa que
+  não comprovou crise, decide magistrado do TRT da 5ª Região (BA)
+fonte: "TST "
+---
+A alegação de “força maior” diante da pandemia da covid-19 não valeu para que fosse reduzida pela metade a indenização trabalhista devida pela empresa Car Serviços Automotivos a um empregado que teve extinto seu contrato de trabalho. A decisão é do juiz substituto do Tribunal Regional do Trabalho da 5ª Região (BA) Murilo Carvalho Oliveira, em um processo da 32ª Vara do Trabalho de Salvador, no qual considerou, entre outros fatos, que a empresa não comprovou que sua situação econômica e financeira foi abalada substancialmente em razão da crise sanitária. O contrato de trabalho, iniciado em 2/6/1997, foi encerrado unilateralmente pela Car em 13/4/2020, logo após o início do denominado período de calamidade pública. Ainda cabe recurso da decisão.
+
+Em sua decisão, o juiz esclarece que “apesar do reconhecimento da calamidade pública como motivo de força maior para fins trabalhistas pela MP 927, vigente à época da dispensa, nem toda empresa poderá se valer dela, pois, além do motivo de força maior, é necessário que tal fato resulte na extinção da empresa ou do estabelecimento em que trabalhe o empregado”. Nesse sentido, ele se valeu da Nota Informativa SEI nº 13448 /2020/ME: "... não se admite a alegação de força maior quando não ocorre a extinção da empresa ou do estabelecimento em que trabalhe o empregado." Ademais, o magistrado pontuou que a jurisprudência vem se posicionando no sentido de reafirmar que cabe ao empregador, inclusive em tempos de pandemia da covid-19, assumir os riscos da atividade econômica, não podendo transferi-los aos empregados, parte hipossuficiente na relação de emprego.
+
+O magistrado reconheceu a dispensa sem justa causa alegada pelo trabalhador e determinou o pagamento de todos os direitos trabalhistas decorrentes: aviso prévio ou a indenização equivalente de 30 dias, mais três dias de salário por ano; 13º salário proporcional, saldo de salário e multa de 40% do FGTS.
+
+**Justa causa**
+
+No processo, a Car Serviços Automotivos argumentou que a dispensa tinha ocorrido por justa causa e que as verbas rescisórias eram devidas pela metade. De acordo a empresa, a extinção do contrato de trabalho ocorreu em face da força maior, qual seja, a pandemia da covid-19, bem como as medidas para enfrentamento da emergência de saúde pública dispostas na Lei 13.979/2020, e o estado de calamidade pública nacional reconhecido pelo Decreto Legislativo nº 6, de 20 de março de 2020.
+
+No entanto, o juiz asseverou que “não foram juntados pela defesa quaisquer documentos que pudessem aferir a demonstração de que a situação econômica e financeira das reclamadas foi abalada substancialmente em abril de 2020, uma vez que nem todas as atividades econômicas foram extintas em razão da pandemia, de modo que deveria a empresa demonstrar especificamente a extinção da sua atividade econômica.”
+
+O magistrado ponderou também que a pandemia do novo coronavírus ainda persiste, provocando efeitos deletérios sobre diversos setores da economia do país e na sociedade como um todo, sendo presumível que tenha desencadeado dificuldades financeiras também à empresa. “Todavia, no caso concreto, é incontroverso que não houve extinção do estabelecimento, nem sequer foram suas atividades totalmente paralisadas, como ocorreu (ou ocorre) com uma grande parte do setor empresarial comercial \[...] trata-se de empresa cuja atividade econômica, entre outras, é o transporte coletivo intermunicipal e interestadual de passageiros e, assim sendo, por atuar em setor essencial, já se encontra em grande vantagem em relação àquelas empresas que estão com suas atividades totalmente paralisadas”, finalizou o magistrado.
