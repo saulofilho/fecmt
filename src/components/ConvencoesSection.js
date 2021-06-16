@@ -1,6 +1,5 @@
 import React from 'react'
 import './PostSection.scss'
-import { Link } from 'gatsby'
 
 const ConvencoesSection = ({
   convencoes = [],
@@ -15,11 +14,8 @@ const ConvencoesSection = ({
           <p className="excerpt">
             {convencao.frontmatter.name}
           </p>
-          <p className="excerpt">
-            {convencao.frontmatter.arquivo}
-          </p>
           <a href={convencao.frontmatter.arquivo} download>
-          <a href={convencao.frontmatter.arquivo} />
+            <p>{convencao.frontmatter.arquivo}</p>
           </a>
         </div>
       ))}

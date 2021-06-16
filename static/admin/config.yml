@@ -35,6 +35,12 @@ collections:
     editor:
       preview: false
     fields:
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: ConvencoesPost,
+        }
       - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY" }
       - { name: name, label: Nome, widget: string }
       - { name: arquivo, label: Arquivo, widget: file }

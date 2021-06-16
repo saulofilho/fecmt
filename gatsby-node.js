@@ -65,6 +65,9 @@ exports.createSchemaCustomization = ({ actions }) => {
   }
   type MarkdownRemarkFrontmatter @infer {
     img: String,
+    date: Date @dateformat(formatString: "DD-MM-YYYY"),
+    name: String,
+    arquivo: String,
   }
 `
   createTypes(typeDefs)

@@ -14,8 +14,6 @@ const Convencoes = ({
 }) => {
   const convencoes = edges.map(edge => ({ ...edge.node }))
 
-  console.log("convencoes--------->", convencoes)
-
   const [data, setData] = useState([...convencoes]);
 
   useEffect(() => {
@@ -52,14 +50,16 @@ const Convencoes = ({
 export default Convencoes
 export const pageQuery = graphql`
   query ConvencoesQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { template: { eq: "ConvencoesPost" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+      ) {
       edges {
         node {
           fields {
             slug
           }
           id
-          excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "DD.MM.YYYY")
             name
