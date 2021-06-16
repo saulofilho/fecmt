@@ -30,7 +30,7 @@ collections:
   - name: convencoes
     label: Convencoes
     folder: _data/convencoes
-    # slug: '{{slug}}'
+    slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
     create: true
     editor:
       preview: false
