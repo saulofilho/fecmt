@@ -45,6 +45,7 @@ const Header = () => {
                         <Link to={"/Editais"}>Editais</Link>
                         <Link to={"/Estatuto"}>Estatuto</Link>
                         <Link to={"/SindicatosFiliados"}>Sindicato Filiados</Link>
+                        <Link to={"/Convencoes"}>Convenções</Link>
                         <Arrow
                           style={arrowStyle}
                           layerSide={layerSide}
@@ -186,6 +187,7 @@ const Header = () => {
                         <Link to={"/Editais"}>Editais</Link>
                         <Link to={"/Estatuto"}>Estatuto</Link>
                         <Link to={"/SindicatosFiliados"}>Sindicato Filiados</Link>
+                        <Link to={"/Convencoes"}>Convenções</Link>
                         <Arrow
                           style={arrowStyle}
                           layerSide={layerSide}

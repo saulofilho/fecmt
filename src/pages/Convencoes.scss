@@ -1,0 +1,102 @@
+.Convencoes {
+  padding-top: 100px;
+}
+.convencoes-home {
+  padding-top: 50px;
+}
+.convencoes-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding-bottom: 100px;
+}
+.convencoes-header h1 {
+  font-family: var(--lora-serif);
+  color: var(--blue);
+  font-size: 3.5rem;
+  font-weight: bolder;
+  padding: 0 0 10px 0;
+}
+.convencoes-header p {
+  font-family: var(--inria-sans);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+.convencoes-home h3 {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+  padding: 0 0 50px 0;
+}
+.convencoes-home h3::before {
+  content: "";
+  position: absolute;
+  left: -70px;
+  top: 14px;
+  border-bottom: 1px solid var(--dark-gray);
+  width: 50px;
+}
+.plus {
+  color: var(--light-gray);
+}
+.plus:hover {
+  color: var(--dark-gray);
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+.search-result-none {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding-bottom: 30px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }}
+.search {
+  border: 2px solid var(--blue) !important;
+  height: auto !important;
+}
+.search button {
+  background-color: var(--blue) !important;
+}
+.search button svg {
+  fill: #fff !important;
+  width: 15px;
+  height: 15px;
+}
+.search button:hover {
+  opacity: 0.6;
+}
+.react-search-field {
+  width: 50%;
+}
+.react-hooks-paginator {
+  padding-top: 30px;
+}
+@media (max-width: 576px) {
+  .convencoes-header h1 {
+    font-size: 2.5rem;
+  }
+  .convencoes-header p {
+    font-size: 0.8rem;
+  }
+  .react-search-field {
+    width: 100%;
+  }
+  .convencoes-home h3 {
+    font-size: 1.5rem;
+  }
+  .convencoes-home h3::before {
+    display: none;
+  }
+}
