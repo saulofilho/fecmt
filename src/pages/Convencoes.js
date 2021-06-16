@@ -15,14 +15,16 @@ const Convencoes = ({
   const convencoes = edges.map(edge => ({ ...edge.node }))
 
   const [data, setData] = useState([...convencoes]);
+  const [currentData, setCurrentData] = useState([]);
 
   useEffect(() => {
     setData(data);
+    setCurrentData(data)
   }, [data]);
 
   const getMatchedList = (searchText) => {
     if (TypeChecker.isEmpty(searchText)) return convencoes;
-    return convencoes.filter(post => post.frontmatter.title.toLowerCase().includes(searchText.toLowerCase()));
+    return convencoes.filter(post => post.frontmatter.name.toLowerCase().includes(searchText.toLowerCase()));
   };
 
   const onSearchClickExample = (value) => {
@@ -33,15 +35,15 @@ const Convencoes = ({
     <Layout>
       <div className="Convencoes container">
         <div className="convencoes-header">
-          <h1>Convenções</h1>
-          <p>Clique sobre o título da notícia para saber mais.</p>
+          <h1>Convenções Coletivas</h1>
+          <p>Procure a convenção que você precisa:</p>
           <SearchField
-            placeholder="Busque por palavras-chave"
+            placeholder="Busque por uma palavras-chave"
             classNames="search"
             onSearchClick={onSearchClickExample}
           />
         </div>
-        <ConvencoesSection convencoes={convencoes} />
+        {!!currentData.length ? <ConvencoesSection convencoes={currentData} /> : <p className="search-result-none">Nenhuma palavra-chave encontrada.</p>}
       </div>
     </Layout>
   )

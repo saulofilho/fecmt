@@ -46,7 +46,7 @@ const Noticia = ({
         <h1>Notícias</h1>
         <p>Clique sobre o título da notícia para saber mais.</p>
         <SearchField
-          placeholder="Busque por palavras-chave"
+          placeholder="Busque por uma palavras-chave"
           classNames="search"
           onSearchClick={onSearchClickExample}
         />

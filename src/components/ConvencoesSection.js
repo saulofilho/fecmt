@@ -1,25 +1,41 @@
 import React from 'react'
-import './PostSection.scss'
+import './ConvencoesSection.scss'
 
 const ConvencoesSection = ({
   convencoes = [],
 }) => {
-  return (
-    <>
-      {convencoes.map(convencao => (
-        <div className="post-item" key={convencao.id}>
-          <p className="date-info">
-            {convencao.frontmatter.date}
-          </p>
-          <p className="excerpt">
-            {convencao.frontmatter.name}
-          </p>
-          <a href={convencao.frontmatter.arquivo} download>
-            <p>{convencao.frontmatter.arquivo}</p>
+
+  const TableRow = ({ row }) => (
+    <tbody>
+      <tr>
+        <td>{row.frontmatter.name}</td>
+        <td>{row.frontmatter.date}</td>
+        <td>
+          <a href={row.frontmatter.arquivo} download>
+            <p>Baixe aqui</p>
           </a>
-        </div>
-      ))}
-    </>
+        </td>
+      </tr>
+    </tbody>
+  );
+
+  return (
+    <div className="TableComparativeWrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Data</th>
+            <th>Download</th>
+          </tr>
+        </thead>
+        {
+          convencoes.map((row, index) => (
+            <TableRow row={row} index={index} key={row.id} />
+          ))
+        }
+      </table >
+    </div>
   )
 }
 
