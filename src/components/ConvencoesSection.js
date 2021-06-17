@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ConvencoesSection.scss'
 
 const ConvencoesSection = ({
   convencoes = [],
 }) => {
+  const [orderName, setOrderName] = useState(false);
+  const [orderDate, setOrderDate] = useState(false);
 
   const TableRow = ({ row }) => (
     <tbody>
@@ -19,13 +21,39 @@ const ConvencoesSection = ({
     </tbody>
   );
 
+  function reorderName() {
+    convencoes.reverse();
+    setOrderName(!orderName);
+  }
+
+  function reorderDate() {
+    convencoes.reverse();
+    setOrderDate(!orderDate);
+  }
+
   return (
     <div className="TableComparativeWrapper">
       <table>
         <thead>
           <tr>
-            <th>Nome</th>
-            <th>Data</th>
+            <th>
+              Nome
+              <button
+                type="button"
+                onClick={reorderName}
+              >
+                {orderName ? <i>↑</i> : <i>↓</i>}
+              </button>
+            </th>
+            <th>
+              Data
+              <button
+                type="button"
+                onClick={reorderDate}
+              >
+                {orderDate ? <i>↑</i> : <i>↓</i>}
+              </button>
+            </th>
             <th>Download</th>
           </tr>
         </thead>
