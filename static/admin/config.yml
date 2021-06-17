@@ -1,8 +1,11 @@
+locale: 'pt'
+
 backend:
   name: git-gateway
   branch: master
 
 display_url: https://fecmt.com.br/
+logo_url: https://fecmt.com.br/static/logo-alt-d97504e3ed884db430289875b6ed81c9.png
 
 media_folder: static/assets
 public_folder: /assets
