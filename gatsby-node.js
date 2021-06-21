@@ -57,18 +57,18 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions
-  const typeDefs = `
-  type MarkdownRemark implements Node @infer {
-    frontmatter: MarkdownRemarkFrontmatter!
-  }
-  type MarkdownRemarkFrontmatter @infer {
-    img: String,
-    date: Date @dateformat(formatString: "DD-MM-YYYY"),
-    name: String,
-    arquivo: String,
-  }
-`
-  createTypes(typeDefs)
-}
+// exports.createSchemaCustomization = ({ actions }) => {
+//   const { createTypes } = actions
+//   const typeDefs = `
+//   type MarkdownRemark implements Node @infer {
+//     frontmatter: MarkdownRemarkFrontmatter!
+//   }
+//   type MarkdownRemarkFrontmatter @infer {
+//     img: String,
+//     date: Date @dateformat(formatString: "DD-MM-YYYY"),
+//     name: String,
+//     arquivo: String,
+//   }
+// `
+//   createTypes(typeDefs)
+// }

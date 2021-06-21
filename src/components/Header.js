@@ -72,6 +72,10 @@ const Header = () => {
                     onClick={() => setIsOpenArrow(!isOpenArrow)}
                   >
                     <a
+                      href="#top"
+                      onKeyDown={toggle}
+                      role="button"
+                      tabIndex={0}
                       ref={triggerRef}
                       onClick={toggle}
                     >
@@ -135,6 +139,10 @@ const Header = () => {
                     onClick={() => setIsOpenArrowTwo(!isOpenArrowTwo)}
                   >
                     <a
+                      href="#top"
+                      onKeyDown={toggle}
+                      role="button"
+                      tabIndex={0}
                       ref={triggerRef}
                       onClick={toggle}
                     >
@@ -214,6 +222,10 @@ const Header = () => {
                   onClick={() => setIsOpenArrow(!isOpenArrow)}
                 >
                   <a
+                    href="#top"
+                    onKeyDown={toggle}
+                    role="button"
+                    tabIndex={0}
                     ref={triggerRef}
                     onClick={toggle}
                   >
@@ -277,6 +289,10 @@ const Header = () => {
                   onClick={() => setIsOpenArrowTwo(!isOpenArrowTwo)}
                 >
                   <a
+                    href="#top"
+                    onKeyDown={toggle}
+                    role="button"
+                    tabIndex={0}
                     ref={triggerRef}
                     onClick={toggle}
                   >
