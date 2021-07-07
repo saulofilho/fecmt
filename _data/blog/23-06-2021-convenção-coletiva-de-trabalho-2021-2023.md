@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-date: 2021-06-23T13:38:21.839Z
+date: 2021-07-07T15:26:19.176Z
 title: CONVENÇÃO COLETIVA DE TRABALHO 2021-2023
 img: /assets/d233ad74-0684-4e80-b12f-b60344602596.webp
 fonte: FECMT
