@@ -1,8 +1,6 @@
 footer {
-  text-align: center;
   color: #fff;
   height: auto;
-  padding: 3rem;
   background: var(--blue);
   h4 {
     font-family: var(--lora-serif);
@@ -11,7 +9,12 @@ footer {
   p {
     font-family: var(--inria-sans);
     font-size: 1rem;
-    padding: 40px 0;
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 0;
   }
 }
 @media (max-width: 576px) {
@@ -21,6 +24,18 @@ footer {
     }
     p {
       font-size: 0.7rem;
+    }
+    .footer-wrapper {
+      flex-flow: column;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .infos {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+    .infos:last-child {
+      padding-bottom: 0;
     }
   }
 }
