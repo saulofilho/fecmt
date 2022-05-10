@@ -1,0 +1,11 @@
+---
+template: BlogPost
+date: 2022-05-10T20:03:19.334Z
+title: TERMO ADITIVO A CCT 2021/2023 - REGISTRO NO MINISTÉRIO DO TRABALHO SOB Nº
+  MT000232/2022
+img: /assets/1045a87e-f1fa-46d0-a06f-d8a40e76ed2c.webp
+fonte: FECMT
+---
+TERMO ADITIVO A CCT 2021/2023 - REGISTRO NO MINISTÉRIO DO TRABALHO SOB Nº MT000232/2022
+
+Acesse www.fecm.com.br - Institucional - Convenções
