@@ -11,4 +11,4 @@ Convenção essa que abrange os trabalhadores no comércio onde não há Sindica
 
 Os trabalhadores obtiveram um reajuste de 4,36% ganho de 0,53% acima do INPC (índice que corrige os salários 3,83%)
 
-Para maiores esclarecimentos estamos à disposição através do e-mail fecmt@fecm.com.br
+Para maiores esclarecimentos estamos à disposição através do e-mail fecmt@fecmt.com.br
