@@ -1,31 +1,29 @@
 ---
-template: BlogPost
-date: 2023-11-21T19:33:27.452Z
-title: TRABALHO AOS DOMINGOS E FERIADOS
-img: /assets/a859f823-ded9-4530-a1f7-04ed6738196d.webp
-fonte: SINCOVAGA-SP
+date: 2023-11-21T19:35:59.772Z
+title: PORTARIA MTE 3.665/23 - TRABALHO AOS DOMINGOS E FERIADOS
+img: /assets/559fa47f-5e0f-4214-823e-e3c22c23e920.jpeg
+fonte: DOU
 ---
 
 
-No dia 14/11/23 foi publicada a Portaria nº 3665/23 do Ministério do Trabalho e Emprego, que alterou o rol de estabelecimentos com autorização permanente para o trabalho em domingos e feriados.
+##  DIÁRIO OFICIAL DA UNIÃO
 
-Pela nova redação, deixam de ter essa autorização permanente para o trabalho em domingos e feriados as seguintes atividades comerciais:
+Publicado em: 14/11/2023 | Edição: 216 | Seção: 1 | Página: 97
 
-* varejistas de peixe;
-* varejistas de carnes frescas e caça;
-* varejistas de frutas e verduras;
-* varejistas de aves e ovos;
-* varejistas de produtos farmacêuticos (farmácias, inclusive manipulação de receituário);
-* mercados, comércio varejista de supermercados e de hipermercados, cuja atividade preponderante seja a venda de alimentos, inclusive os transportes a eles inerentes;
-* comércio de artigos regionais nas estâncias hidrominerais;
-* comércio em portos, aeroportos, estradas, estações rodoviárias e ferroviárias;
-* comércio em hotéis;
-* comércio em geral;
-* atacadistas e distribuidores de produtos industrializados;
-* revendedores de tratores, caminhões, automóveis e veículos similares; e
+Órgão: Ministério do Trabalho e Emprego/Gabinete do Ministro
 
-Até dois anos atrás essa matéria era regulamentada pelo Decreto nº 27.048/49, que, por sua vez, regulamentava a Lei nº 605/49. Em 2021, o Executivo Federal baixou o Decreto nº 10.854/21, regulamentando disposições relativas à legislação trabalhista e instituindo o Programa Permanente de Consolidação, Simplificação e Desburocratização de Normas Trabalhistas Infralegais, revogando o Decreto nº 27.048/49, em vigor há mais de setenta anos. Paralelamente à edição do Decreto 10.854/21, o Governo editou a Portaria nº 671/21, regulamentando disposições relativas à legislação trabalhista, à inspeção do trabalho, às políticas públicas e às relações de trabalho. Essa portaria, revogada em parte pela recém editada Portaria 3.665/23, autorizava permanentemente o trabalho nas atividades elencadas no início desta informação.
+PORTARIA MTE Nº 3.665, DE 13 DE NOVEMBRO DE 2023
 
-O fato é que nenhuma das portarias aqui referidas poderia tratar dessa matéria, se fosse rigorosamente observada a hierarquia das leis. O Decreto 27.048/49 vinha cumprindo seu papel há décadas, elencando as atividades consideradas essenciais que tinham autorização para o trabalho nos dias considerados de repouso. Isso era e continua sendo prerrogativa da autoridade competente em matéria de trabalho, a teor do disposto no art. 68 da CLT, nesse caso, relativamente aos domingos. Por sua vez, o trabalho em domingos e feriados no comércio em geral é regulamentado pela Lei Especial nº 10.101/00. Em relação aos domingos, a única exigência é que se observe, no mínimo, o turno de revezamento 2X1. No caso dos feriados, a autorização para o trabalho está condicionada à celebração de negociação coletiva. Em ambos os casos, deve-se observar a legislação municipal.
+Altera a Portaria/MTP nº 671, de 8 de novembro de 2021. (Processo nº 19964.203605/2023-95).
 
-Algumas atividades constantes da relação da nova portaria, sempre possuíram autorização para o trabalho, como farmácias, comércio de carnes frescas e de flores e plantas, por exemplo, justamente pela sua essencialidade.
+O MINISTRO DE ESTADO DO TRABALHO E EMPREGO, no uso da atribuição que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, no art. 10, parágrafo único, da Lei 605, de 5 de janeiro de 1949 e no art. 154, § 4º, do Decreto nº 10.854, de 10 de novembro de 2021, e considerando o disposto no art. 6-A, da Lei 10.101 de 19 de dezembro de 2000, que estabelece que "é permitido o trabalho em feriados nas atividades do comércio em geral, desde que autorizado em convenção coletiva de trabalho e observada a legislação municipal, nos termos do art. 30, inciso I, da Constituição", resolve:
+
+Art. 1º Revogar os subitens 1, 2, 4, 5, 6, 17, 18, 19, 23, 25, 27 e 28, do item II - Comércio, do Anexo IV, da Portaria/MTP nº 671, de 8 de novembro de 2021.
+
+Art. 2º O subitem 14, do item II - Comércio, do Anexo IV, da Portaria/MTP nº 671, de 8 de novembro de 2021, passa a vigorar com a seguinte redação:
+
+"14) feiras-livres;"
+
+Art. 3º Esta Portaria entre em vigor na data de sua publicação.
+
+LUIZ MARINHO
