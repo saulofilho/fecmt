@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/Layout"
-import './Noticias.scss'
+import './Noticias.css'
 import TypeChecker from 'typeco';
 import loadable from '@loadable/component'
 import PostSection from "../components/PostSection"
+import { graphql } from 'gatsby'
 
 const SearchField = loadable(() => import('react-search-field'))
 const Paginator = loadable(() => import('react-hooks-paginator'))

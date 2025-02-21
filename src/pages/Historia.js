@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import './Historia.scss'
+import './Historia.css'
 
 const Historia = () => {
   return (

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/Layout"
-import './Convencoes.scss'
+import './Convencoes.css'
 import TypeChecker from 'typeco';
 import loadable from '@loadable/component'
 import ConvencoesSection from "../components/ConvencoesSection"
+import { graphql } from 'gatsby';
 
 const SearchField = loadable(() => import('react-search-field'))
 

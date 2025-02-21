@@ -1,5 +1,5 @@
 import React from 'react'
-import './PostSection.scss'
+import './PostSection.css'
 import { Link } from 'gatsby'
 
 const PostSection = ({

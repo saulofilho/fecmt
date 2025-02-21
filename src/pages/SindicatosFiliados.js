@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import './SindicatosFiliados.scss'
+import './SindicatosFiliados.css'
 
 const SindicatosFiliados = () => {
   return (

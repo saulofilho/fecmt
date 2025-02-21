@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import './PostLink.scss'
+import './PostLink.css'
 
 const PostLink = ({ post }) => (
   <div className="post-item">

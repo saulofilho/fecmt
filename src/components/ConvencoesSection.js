@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './ConvencoesSection.scss'
+import './ConvencoesSection.css'
 
 const ConvencoesSection = ({
   convencoes = [],

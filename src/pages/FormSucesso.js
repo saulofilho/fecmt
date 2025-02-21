@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
-import './FormSucesso.scss'
+import './FormSucesso.css'
 import Logo from '../../static/assets/logo.png'
 
 const FormSucesso = () => {

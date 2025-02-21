@@ -54,8 +54,11 @@ module.exports = {
         head: true,
       }
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-postcss'
+    },
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-decap-cms`,
   ],
 }

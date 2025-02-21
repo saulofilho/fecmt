@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
-import './blogTemplate.scss'
+import './blogTemplate.css'
 
 export default function Template({
   data,

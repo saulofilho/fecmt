@@ -6,7 +6,7 @@ import { PlusCircle } from 'react-feather'
 import Layout from "../components/Layout"
 import PostLink from "../components/PostLink"
 import Carousel from "../components/Carousel"
-import './Homologacoes.scss'
+import './Homologacoes.css'
 
 const IndexPage = ({
   data: {

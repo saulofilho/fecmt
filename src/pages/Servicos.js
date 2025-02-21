@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import './Servicos.scss'
+import './Servicos.css'
 
 const Servicos = () => {
   return (

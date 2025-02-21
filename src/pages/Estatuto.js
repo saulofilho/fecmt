@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import './Estatuto.scss'
+import './Estatuto.css'
 
 const Estatuto = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import './ConhecaMatoGrosso.scss'
+import './ConhecaMatoGrosso.css'
 
 const ConhecaMatoGrosso = () => {
   return (

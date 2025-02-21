@@ -7,7 +7,7 @@ import {
   Honeypot
 } from 'react-netlify-forms'
 import NumberFormat from "react-number-format"
-import './Contato.scss'
+import './Contato.css'
 import { useForm, Controller } from "react-hook-form";
 
 const Contato = () => {
