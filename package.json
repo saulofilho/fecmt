@@ -14,6 +14,7 @@
     "cross-fetch": "^4.1.0",
     "decap-cms-app": "^3.6.2",
     "fbjs": "^3.0.5",
+    "framer-motion": "^12.4.7",
     "gatsby": "^5.14.1",
     "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-decap-cms": "^4.0.0",
