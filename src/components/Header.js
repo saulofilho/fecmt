@@ -1,24 +1,19 @@
-import React, { useState } from "react"
-import { Link } from 'gatsby'
-import { ToggleLayer, Arrow, Transition } from "react-laag"
-import { Menu, X, ChevronUp, ChevronDown } from 'react-feather'
-import Logo from '../../static/assets/logo-alt.png'
-import './Header.scss'
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import { Menu, X } from "react-feather";
+import Logo from "../../static/assets/logo-alt.png";
+import "./Header.css";
 
 const Header = () => {
-  const [isOpenArrow, setIsOpenArrow] = useState(false);
-  const [isOpenArrowTwo, setIsOpenArrowTwo] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const menuClassNames = isOpen ? 'header-wrapper-active container' : 'header-wrapper container';
+  const menuClassNames = isOpen ? "header-wrapper-active container" : "header-wrapper container";
 
   return (
-    <header
-      className="header-blog"
-    >
+    <header className="header-blog">
       <div className={menuClassNames}>
         <div className="header-left">
           <div className="logo-header">
-            <Link to={"/"}>
+            <Link to="/">
               <img src={Logo} alt="logo blog" />
             </Link>
           </div>
@@ -26,321 +21,53 @@ const Header = () => {
         <div className="header-right-desk">
           <ul>
             <li>
-            <ToggleLayer
-                renderLayer={({ isOpen, layerProps, arrowStyle, layerSide }) => (
-                  <Transition isOpen={isOpen}>
-                    {(isOpen, onTransitionEnd) => (
-                      <div
-                        ref={layerProps.ref}
-                        onTransitionEnd={onTransitionEnd}
-                        className="layer"
-                        style={{
-                          ...layerProps.style,
-                          transition: "opacity 340ms, transform 340ms",
-                          opacity: isOpen ? 1 : 0,
-                          transform: "scale(" + isOpen ? 1 : 0.5 + ")",
-                        }}
-                      >
-                        <Link to={"/Diretoria"}>Diretoria</Link>
-                        <Link to={"/Editais"}>Editais</Link>
-                        <Link to={"/Estatuto"}>Estatuto</Link>
-                        <Link to={"/SindicatosFiliados"}>Sindicato Filiados</Link>
-                        <Link to={"/Convencoes"}>Convenções</Link>
-                        <Arrow
-                          style={arrowStyle}
-                          layerSide={layerSide}
-                          backgroundColor="rgb(239, 249, 255)"
-                          borderWidth={2}
-                          borderColor="#0d518c"
-                          roundness={0}
-                        />
-                      </div>
-                    )}
-                  </Transition>
-                )}
-                placement={{
-                  anchor: "BOTTOM_CENTER",
-
-                  autoAdjust: true,
-
-                  triggerOffset: 10
-                }}
-                closeOnOutsideClick
-              >
-                {({ triggerRef, toggle }) => (
-                  <button
-                    onClick={() => setIsOpenArrow(!isOpenArrow)}
-                  >
-                    <a
-                      href="#top"
-                      onKeyDown={toggle}
-                      role="button"
-                      tabIndex={0}
-                      ref={triggerRef}
-                      onClick={toggle}
-                    >
-                      Institucional
-                      {isOpenArrow ?
-                        <ChevronUp
-                          color={"#0d518c"}
-                          className="x"
-                        />
-                        :
-                        <ChevronDown
-                          color={"#0d518c"}
-                          className="menu"
-                        />}
-                    </a>
-                  </button>
-                )}
-              </ToggleLayer>
+              <Link to="/Convencoes">Convencoes</Link>
             </li>
             <li>
-            <ToggleLayer
-                renderLayer={({ isOpen, layerProps, arrowStyle, layerSide }) => (
-                  <Transition isOpen={isOpen}>
-                    {(isOpen, onTransitionEnd) => (
-                      <div
-                        ref={layerProps.ref}
-                        onTransitionEnd={onTransitionEnd}
-                        className="layer"
-                        style={{
-                          ...layerProps.style,
-                          transition: "opacity 340ms, transform 340ms",
-                          opacity: isOpen ? 1 : 0,
-                          transform: "scale(" + isOpen ? 1 : 0.5 + ")",
-                        }}
-                      >
-                        <Link to={"/Historia"}>História</Link>
-                        <Link to={"/Servicos"}>Serviços</Link>
-                        <Arrow
-                          style={arrowStyle}
-                          layerSide={layerSide}
-                          backgroundColor="rgb(239, 249, 255)"
-                          borderWidth={2}
-                          borderColor="#0d518c"
-                          roundness={0}
-                        />
-                      </div>
-                    )}
-                  </Transition>
-                )}
-                placement={{
-                  anchor: "BOTTOM_CENTER",
-
-                  autoAdjust: true,
-
-                  triggerOffset: 10
-                }}
-                closeOnOutsideClick
-              >
-                {({ triggerRef, toggle }) => (
-                  <button
-                    onClick={() => setIsOpenArrowTwo(!isOpenArrowTwo)}
-                  >
-                    <a
-                      href="#top"
-                      onKeyDown={toggle}
-                      role="button"
-                      tabIndex={0}
-                      ref={triggerRef}
-                      onClick={toggle}
-                    >
-                      A Federação
-                      {isOpenArrowTwo ?
-                        <ChevronUp
-                          color={"#0d518c"}
-                          className="x"
-                        />
-                        :
-                        <ChevronDown
-                          color={"#0d518c"}
-                          className="menu"
-                        />}
-                    </a>
-                  </button>
-                )}
-              </ToggleLayer>
+              <Link to="/Noticias">Notícias</Link>
             </li>
             <li>
-              <Link to={"/Noticias"}>Notícias</Link>
+              <Link to="/ConhecaMatoGrosso">Conheça Mato Grosso</Link>
             </li>
             <li>
-              <Link to={"/ConhecaMatoGrosso"}>Conheça Mato Grosso</Link>
+              <Link to="/Contato">Contato</Link>
             </li>
             <li>
-              <Link to={"/Contato"}>Contato</Link>
+              <Link to="/Historia">História</Link>
+            </li>
+            <li>
+              <Link to="/Servicos">Serviços</Link>
             </li>
           </ul>
         </div>
         <div className="header-right-mob">
           <ul>
             <li>
-            <ToggleLayer
-                renderLayer={({ isOpen, layerProps, arrowStyle, layerSide }) => (
-                  <Transition isOpen={isOpen}>
-                    {(isOpen, onTransitionEnd) => (
-                      <div
-                        ref={layerProps.ref}
-                        onTransitionEnd={onTransitionEnd}
-                        className="layer"
-                        style={{
-                          ...layerProps.style,
-                          transition: "opacity 340ms, transform 340ms",
-                          opacity: isOpen ? 1 : 0,
-                          transform: "scale(" + isOpen ? 1 : 0.5 + ")",
-                        }}
-                      >
-                        <Link to={"/Diretoria"}>Diretoria</Link>
-                        <Link to={"/Editais"}>Editais</Link>
-                        <Link to={"/Estatuto"}>Estatuto</Link>
-                        <Link to={"/SindicatosFiliados"}>Sindicato Filiados</Link>
-                        <Link to={"/Convencoes"}>Convenções</Link>
-                        <Arrow
-                          style={arrowStyle}
-                          layerSide={layerSide}
-                          backgroundColor="rgb(239, 249, 255)"
-                          borderWidth={2}
-                          borderColor="#0d518c"
-                          roundness={0}
-                        />
-                      </div>
-                    )}
-                  </Transition>
-                )}
-                placement={{
-                  anchor: "BOTTOM_CENTER",
-
-                  autoAdjust: true,
-
-                  triggerOffset: 10
-                }}
-                closeOnOutsideClick
-              >
-                {({ triggerRef, toggle }) => (
-                  <button
-                  onClick={() => setIsOpenArrow(!isOpenArrow)}
-                >
-                  <a
-                    href="#top"
-                    onKeyDown={toggle}
-                    role="button"
-                    tabIndex={0}
-                    ref={triggerRef}
-                    onClick={toggle}
-                  >
-                    Institucional
-                    {isOpenArrow ?
-                      <ChevronUp
-                        color={"#0d518c"}
-                        className="x"
-                      />
-                      :
-                      <ChevronDown
-                        color={"#0d518c"}
-                        className="menu"
-                      />}
-                  </a>
-                </button>
-                )}
-              </ToggleLayer>
+              <Link to="/Convencoes">Convencoes</Link>
             </li>
             <li>
-            <ToggleLayer
-                renderLayer={({ isOpen, layerProps, arrowStyle, layerSide }) => (
-                  <Transition isOpen={isOpen}>
-                    {(isOpen, onTransitionEnd) => (
-                      <div
-                        ref={layerProps.ref}
-                        onTransitionEnd={onTransitionEnd}
-                        className="layer"
-                        style={{
-                          ...layerProps.style,
-                          transition: "opacity 340ms, transform 340ms",
-                          opacity: isOpen ? 1 : 0,
-                          transform: "scale(" + isOpen ? 1 : 0.5 + ")",
-                        }}
-                      >
-                        <Link to={"/Historia"}>História</Link>
-                        <Link to={"/Servicos"}>Serviços</Link>
-                        <Arrow
-                          style={arrowStyle}
-                          layerSide={layerSide}
-                          backgroundColor="rgb(239, 249, 255)"
-                          borderWidth={2}
-                          borderColor="#0d518c"
-                          roundness={0}
-                        />
-                      </div>
-                    )}
-                  </Transition>
-                )}
-                placement={{
-                  anchor: "BOTTOM_CENTER",
-
-                  autoAdjust: true,
-
-                  triggerOffset: 10
-                }}
-                closeOnOutsideClick
-              >
-                {({ triggerRef, toggle }) => (
-                  <button
-                  onClick={() => setIsOpenArrowTwo(!isOpenArrowTwo)}
-                >
-                  <a
-                    href="#top"
-                    onKeyDown={toggle}
-                    role="button"
-                    tabIndex={0}
-                    ref={triggerRef}
-                    onClick={toggle}
-                  >
-                    A Federação
-                    {isOpenArrowTwo ?
-                      <ChevronUp
-                        color={"#0d518c"}
-                        className="x"
-                      />
-                      :
-                      <ChevronDown
-                        color={"#0d518c"}
-                        className="menu"
-                      />}
-                  </a>
-                </button>
-                )}
-              </ToggleLayer>
+              <Link to="/Noticias">Notícias</Link>
             </li>
             <li>
-              <Link to={"/Noticias"}>Notícias</Link>
+              <Link to="/ConhecaMatoGrosso">Conheça Mato Grosso</Link>
             </li>
             <li>
-              <Link to={"/ConhecaMatoGrosso"}>Conheça Mato Grosso</Link>
+              <Link to="/Contato">Contato</Link>
             </li>
             <li>
-              <Link to={"/Contato"}>Contato</Link>
+              <Link to="/Historia">História</Link>
+            </li>
+            <li>
+              <Link to="/Servicos">Serviços</Link>
             </li>
           </ul>
         </div>
-        <button
-          className="button-blank menu-button"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ?
-            <X
-              color={"#0d518c"}
-              className="x"
-            />
-              :
-            <Menu
-              color={"#0d518c"}
-              className="menu"
-            />}
+        <button className="button-blank menu-button" onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <X color="#0d518c" /> : <Menu color="#0d518c" />}
         </button>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
