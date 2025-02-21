@@ -57,11 +57,8 @@ const Contato = () => {
                     type="text"
                     name="name"
                     placeholder="Seu nome"
-                    ref={register({ required: true })}
+                    {...register('test', { required: true })}
                   />
-                  <span>
-                  {errors.name && "Nome requirido."}
-                  </span>
                 </label>
               </section>
               <section>
@@ -70,15 +67,11 @@ const Contato = () => {
                     type="email"
                     name="email"
                     placeholder="Seu email"
-                    ref={register({
+                    {...register('test', {
                       pattern: {
-                        value: EMAIL_REGEX,
-                      }
-                    })}
+                      value: EMAIL_REGEX,
+                    } })}
                   />
-                  <span>
-                    {errors.email && "Email requerido."}
-                  </span>
                 </label>
               </section>
               <section>
@@ -90,10 +83,8 @@ const Contato = () => {
                     placeholder="(65) 9 1234-5678"
                     as={NumberFormat}
                     control={control}
+                    render={() => {}}
                   />
-                  <span>
-                  {errors.telefone && "Telefone requirido."}
-                  </span>
                 </label>
               </section>
               <section>
@@ -102,11 +93,8 @@ const Contato = () => {
                     type="text"
                     name="cidade"
                     placeholder="Sua cidade"
-                    ref={register({ required: true })}
+                    {...register('test', { required: true })}
                   />
-                  <span>
-                  {errors.cidade && "Cidade requirida."}
-                  </span>
                 </label>
               </section>
               <section>
@@ -114,11 +102,8 @@ const Contato = () => {
                   <textarea
                     name="message"
                     placeholder="Escreva a sua mensagem aqui"
-                    ref={register({ required: true })}
+                    {...register('test', { required: true })}
                   />
-                  <span>
-                  {errors.message && "Mensagem requirida."}
-                  </span>
                 </label>
               </section>
               <button
