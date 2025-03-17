@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-date: 17.03.2025
+date: 2025-03-17T23:24:02.071Z
 title: "Recriação do imposto sindical irrita parlamentares "
 img: /assets/2c13ff87-d7ae-4d49-9973-658a4896ae19.jpeg
 fonte: VEJA - Por Hugo Marques
