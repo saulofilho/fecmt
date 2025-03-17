@@ -44,6 +44,6 @@ collections:
           widget: hidden,
           default: ConvencoesPost,
         }
-      - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY" }
+      - { name: date, label: Data, widget: datetime, dateFormat: "YYYY-MM-DD" }
       - { name: name, label: Nome, widget: string }
       - { name: arquivo, label: Arquivo, widget: file }
