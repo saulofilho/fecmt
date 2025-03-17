@@ -21,7 +21,7 @@ const Header = () => {
         <div className="header-right-desk">
           <ul>
             <li>
-              <Link to="/Convencoes">Convencoes</Link>
+              <Link to="/Convencoes">Convenções</Link>
             </li>
             <li>
               <Link to="/Noticias">Notícias</Link>
