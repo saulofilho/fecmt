@@ -25,7 +25,7 @@ collections:
           widget: hidden,
           default: BlogPost,
         }
-      - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY" }
+      - { name: date, label: Data, widget: datetime, dateFormat: "YYYY-MM-DD" }
       - { name: title, label: Título, widget: string }
       - { name: img, label: Imagem, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
