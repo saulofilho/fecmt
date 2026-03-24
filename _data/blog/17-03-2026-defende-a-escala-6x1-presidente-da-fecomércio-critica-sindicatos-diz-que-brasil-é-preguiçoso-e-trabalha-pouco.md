@@ -1,8 +1,8 @@
 ---
 template: BlogPost
 date: 2026-03-17
-title: DEFENDE A ESCALA 6X1  Presidente da Fecomércio critica sindicatos, diz
-  que Brasil é preguiçoso e trabalha pouco
+title: Presidente da Fecomércio critica sindicatos, diz que Brasil é preguiçoso
+  e trabalha pouco
 img: /assets/7da294d4-05a5-47cc-9f51-ae84131a01b2.webp
 fonte: Aparecido Carmo - gazeta digital
 ---
